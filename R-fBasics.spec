@@ -13,6 +13,8 @@ Requires:         R-MASS R-methods R-timeDate R-timeSeries
 Requires:         R-akima R-spatial R-RUnit R-tcltk 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-MASS R-methods R-timeDate R-timeSeries
 BuildRequires:    R-akima R-spatial R-RUnit R-tcltk 
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 Environment for teaching "Financial Engineering and Computational Finance"
