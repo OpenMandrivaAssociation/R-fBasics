@@ -9,10 +9,11 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-MASS R-methods R-timeDate R-timeSeries 
-Requires:         R-akima R-spatial R-RUnit R-tcltk 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-MASS R-methods R-timeDate R-timeSeries
-BuildRequires:    R-akima R-spatial R-RUnit R-tcltk 
+Requires:         R-MASS R-methods R-timeDate R-timeSeries R-akima
+Requires:         R-spatial R-RUnit R-tcltk 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-MASS
+BuildRequires:    R-methods R-timeDate R-timeSeries R-akima
+BuildRequires:    R-spatial R-RUnit R-tcltk
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
 
