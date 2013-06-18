@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2110.79
-Release:          1
+Release:          2
 Summary:          Rmetrics - Markets and Basic Statistics
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
