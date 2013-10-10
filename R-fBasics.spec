@@ -41,7 +41,6 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %dir %{rlibdir}/%{packname}
 %doc %{rlibdir}/%{packname}/html
 %doc %{rlibdir}/%{packname}/DESCRIPTION
-%{rlibdir}/%{packname}/DocCopying.pdf
 %{rlibdir}/%{packname}/COPYRIGHT.html
 %{rlibdir}/%{packname}/INDEX
 %{rlibdir}/%{packname}/NAMESPACE
